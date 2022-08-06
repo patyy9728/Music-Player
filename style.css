@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@media screen and (max-width:760px),(min-width:320px) {
+    .container-fluid{
+        height: 100vh;
+        background: rgb(255,255,255);
+         font-family: 'Open Sans', sans-serif;
+         font-size: 20px;
+         margin: 0;
+         padding: 0;
+        }
+        
+        body::-webkit-scrollbar{
+            width: 0;
+        }
+        
+        button{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow:  3px 3px 6px #bebebe,
+                         -3px -3px 6px #ffffff;
+                         border: none;
+                         margin: 0px 5px;
+        }
+        button:active{
+            border-radius: 50%;
+        background: #e0e0e0;
+        box-shadow: inset 3px 3px 6px #bebebe,
+                    inset -3px -3px 6px #ffffff;
+        }
+        .portada{
+            width: 200px;
+            margin-top: 25px;
+            border: solid 3px white; 
+            border-radius: 50px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+        .progress-area{
+          height: 8px;
+          width: 90%;
+          background-color: #f0f0f0;
+          border-radius: 50px;
+          margin-bottom: 20px;
+          cursor: pointer;
+         }
+        .progress-area .progress-bar{
+            height: inherit;
+            width: 0%;
+            border-radius:inherit;
+            margin-left: 1px;background: rgb(5,5,5);
+            background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(126,123,123,1) 100%);
+        }
+        
+        
+        tr,td,th{
+            border: none;
+            font-size: 15px;
+        }
+        tr{
+            border-radius: 0px;
+        background: #e0e0e0;
+        box-shadow:  20px 20px 60px #bebebe,
+                     -20px -20px 60px #ffffff;
+        }
+        tr:hover{
+            border-radius: 0px;
+        background: #e0e0e0;
+        box-shadow: inset 20px 20px 60px #bebebe,
+                    inset -20px -20px 60px #ffffff;
+            color: black;
+            font-weight: bold;
+        }
+        .pause{
+        margin-left: -31px;
+        visibility:hidden ;
+        }
+        
+        .reproductor-content{    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        
+        .nameSong{
+            margin: 10px 0px;
+            font-weight: bold;
+        }
+        .music-list, table{
+            width: 99%;
+            max-height: 112px;
+            margin-top: 10px;
+            padding: 0;
+            overflow: auto;
+        }
+        .music-list::-webkit-scrollbar{
+            width: 4px;
+            background-color: none;
+        }
+        .music-list::-webkit-scrollbar-thumb{
+            width: 4px;
+            height: 6px;
+            background-color: gray;
+        }
+        .portada-cancion{
+            width: 50px;
+            height: 50px;
+        }
+        a{
+        color:black;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        background-color: none;
+        }
+        .song{
+            display: flex;
+            align-items: center;
+        }
+        td{
+            width: 25%;
+            display: flex;
+            padding: 0px 5px;
+        }
+        
+}
+.container-fluid{
+height: 100vh;
+background: rgb(255,255,255);
+ font-family: 'Open Sans', sans-serif;
+ font-size: 20px;
+ margin: 0;
+ padding: 0;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  3px 3px 6px #bebebe,
+                 -3px -3px 6px #ffffff;
+                 border: none;
+                 margin: 0px 5px;
+}
+button:active{
+    border-radius: 50%;
+background: #e0e0e0;
+box-shadow: inset 3px 3px 6px #bebebe,
+            inset -3px -3px 6px #ffffff;
+}
+.gif{
+    visibility: hidden;
+}
+.portada{
+    width: 200px;
+    margin-top: 25px;
+    border: solid 3px white; 
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.progress-area{
+  height: 8px;
+  width: 90%;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+ }
+.progress-area .progress-bar{
+    height: inherit;
+    width: 0%;
+    border-radius:inherit;
+    margin-left: 1px;background: rgb(5,5,5);
+    background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(126,123,123,1) 100%);
+}
+
+
+tr,td,th{
+    border: none;
+    font-size: 15px;
+}
+tr{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+tr:hover{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+    color: black;
+    font-weight: bold;
+}
+.pause{
+margin-left: -31px;
+visibility:hidden ;
+}
+
+.reproductor-content{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nameSong{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+.music-list, table{
+    width: 99%;
+    max-height: 192px;
+    margin-top: 10px;
+    padding: 0;
+    overflow: auto;
+}
+.music-list::-webkit-scrollbar{
+    width: 4px;
+    background-color: none;
+}
+.music-list::-webkit-scrollbar-thumb{
+    width: 4px;
+    height: 6px;
+    background-color: gray;
+}
+.portada-cancion{
+    width: 50px;
+    height: 50px;
+}
+a{
+color:black;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+background-color: none;
+}
+.song{
+    display: flex;
+    align-items: center;
+}
+td{
+    width: 25%;
+    display: flex;
+    padding: 0px 5px;
+}

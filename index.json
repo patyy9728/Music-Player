@@ -1,0 +1,142 @@
+{
+    "datos_pag":{
+          "canciones": [
+           { 
+            "nombre": "Count on Me",
+            "artista": "Bruno Mars",
+            "disco": "Doo-Wops & Hooligans",
+            "duración": "3:13",
+            "cancion": "./music/01-Count-On-Me.mp3",
+            "portada":"./music/img1.jpg",
+            "numero":"1"
+           },
+           {
+            "nombre": "Cuando Nadie Ve",
+            "artista": "Morat",
+            "disco": "Balas Perdidas",
+            "duración": "3:40",
+            "cancion": "./music/02-Cuando-Nadie-Ve.mp3",
+            "portada":"./music/img2.jpg",
+            "numero":"2"
+           },
+           {
+            "nombre": "Todo Cuenta",
+            "artista": "DLD",
+            "disco": "Primario",
+            "duración": "3:53",
+            "cancion": "./music/03-Todo-Cuenta.mp3",
+            "portada":"./music/img3.jpg",
+            "numero":"3"
+           },
+           {
+           "nombre": "Running Up That Hill",
+           "artista": "Kate Brush",
+           "disco": "Hounds of Love",
+           "duración": "4:55",
+           "cancion": "./music/04 -Running-Up-That-Hill.mp3",
+           "portada":"./music/img4.jpg",
+           "numero":"4"
+           },
+           {
+           "nombre": "It Ain´t Me",
+           "artista": "Kygo & Selena Gomez",
+           "disco": "Kids in Love",
+           "duración": "3:42",
+           "cancion": "./music/05-It-Ain´t-Me.mp3",
+           "portada":"./music/img5.jpg",
+           "numero":"5"
+           },
+           {
+            "nombre": "This Is Me",
+            "artista": "The Greatest Showman Cast",
+            "disco": "The Greatest Showman Soundtrack",
+            "duración": "3:55",
+            "cancion": "./music/06-This-Is-Me.mp3",
+            "portada":"./music/img6.jpg",
+            "numero":"6"
+            },
+            {
+                "nombre": "Valen Más",
+                "artista": "Morat",
+                "disco": "Valen Más",
+                "duración": "3:09",
+                "cancion": "./music/07-Valen-Más.mp3",
+                "portada":"./music/img7.jpg",
+                "numero":"7"
+                },
+                {
+                    "nombre": "Let Me Get Me",
+                    "artista": "Selena Gomez",
+                    "disco": "Rare",
+                    "duración": "3:10",
+                    "cancion": "./music/08-Let-Me-Get-Me.mp3",
+                    "portada":"./music/img8.jpg",
+                    "numero":"8"
+                    },
+                    {
+                        "nombre": "Paradox",
+                        "artista": "Nina Young",
+                        "disco": "Alaska",
+                        "duración": "1:52",
+                        "cancion": "./music/09-Paradox.mp3",
+                        "portada":"./music/img9.jpg",
+                        "numero":"9"  
+                    },
+                    {
+                    "nombre": "In My Mind",
+                    "artista": "Dynoro & Gigi D'Agostino",
+                    "disco": "In My Mind",
+                    "duración": "3:04",
+                    "cancion": "./music/10-In-My-Mind.mp3",
+                    "portada":"./music/img10.jpg",
+                    "numero":"10"
+                    },
+                    {
+                    "nombre": "Wolves",
+                    "artista": "Selena Gomez & Marshmello",
+                    "disco": "Wolves",
+                    "duración": "3:18",
+                    "cancion": "./music/11-Wolves.mp3",
+                    "portada":"./music/img11.jpg",
+                    "numero":"11" 
+                    },
+                    {
+                    "nombre": "Shut Up and Dance",
+                    "artista": "Walk The Moon",
+                    "disco": "Talking Is Hard",
+                    "duración": "3:19",
+                    "cancion": "./music/12-Shut-Up-And-Dance.mp3",
+                    "portada":"./music/img12.jpg",
+                    "numero":"12" 
+                    },
+        
+                    {
+                    "nombre": "Inolvidable",
+                    "artista": "Reik",
+                    "disco": "Un dia Más",
+                    "duración": "3:43",
+                    "cancion": "./music/13-Inolvidable.mp3",
+                    "portada":"./music/img13.jpg",
+                    "numero":"13" 
+                    },
+                    {
+                        "nombre": "Best Day Of My Life",
+                        "artista": "American Authors",
+                        "disco": "Oh, What A Life",
+                        "duración": "3:12",
+                        "cancion": "./music/14-Best-Day-Of-My-Life.mp3",
+                        "portada":"./music/img14.jpg",
+                        "numero":"14"  
+                    },
+                    {
+                        "nombre": "The Reason",
+                        "artista": "Hoobastank",
+                        "disco": "The Reason",
+                        "duración": "3:53",
+                        "cancion": "./music/15-The-Reason.mp3",
+                        "portada":"./music/img15.jpg",
+                        "numero":"15"    
+                    }
+                    
+        ]}
+    }
